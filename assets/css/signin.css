@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --bg-light:#00BBED;
+    --bg-dark:#5799B6;
+    --bg-yellow:#FFEACE;
+    --font-color-light: #E6F4F1;
+    --font-color-dark: #354A54;
+    --font-hover:#203632;
+    --futura: 'Futura Md BT', sans-serif;
+}
+
+
+body{
+    background-color: var(--bg-light);
+   
+}
+
+/*header*/
+#heading {
+    background-color: var(--bg-dark);
+    
+    
+}
+
+#heading h1 {
+    font-size : 40px;
+}
+
+.welcome-content {
+    padding-top : 30px;
+}
+
+.register-section, .log-section {
+    margin-top : 50px;
+   
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.register-section .card, .log-section .card {
+    width:500px;
+    padding:10px;
+}
+
+.register-section img, .log-section img {
+    margin-left: 50px;
+    width: 70%;
+    height: 70%;
+    
+}
+
+
+.btn-go {
+    background-color: var(--bg-light);
+    width:30%;
+    position: relative;
+    
+}
+
+
+/*Login form*/
+
+.login table {
+    border: 1px solid var(--bg-dark);
+}
+.footer {
+    margin-top: 100px;
+    background-color: #354A54;
+}
+
+
+
+
+

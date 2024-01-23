@@ -1,0 +1,49 @@
+<div class="container my-2 mx-2 px-2 py-2" >
+    <h4 class=text-wrap>KELAYAKAN MINIMUM LEPASAN STPM/SETARAF</h4>
+<p> 
+    <ul style="font-weight:600;" class="inline">
+        <li>Gred C (NGMP 2.00) mata pelajaran Pengajian Am dan</li>
+        <li>Gred C (NGMP 2.00) dalam dua (2) Mata pelajaran lain dan</li>
+        <li>Mendapat sekurang-kurangnya Tahap 2 (Band 2) dalam Malaysian Universitty English Test(MUET).</li>
+    </ul>
+</p>
+
+<h4>KELAYAKAN MINIMUM LEPASAN MATRIKULASI KPM/ ASASI SAINS UM/ ASASI UITM/ASASI UKM</h4>
+<p>
+    <span><b>Syarat Am Universiti</b></span> <br>
+
+    <p>
+    Memiliki Sijil Pelajaran Malaysia (SPM)/ Setaraf dengan mendapat Kepujian dalam mata pelajaran Bahasa
+    Melayu/ Bahasa Malaysia atau kepujian Bahasa Melayu / Bahasa Malaysia Kertas Julai.
+    </p>
+
+    <p class="text-center">
+    <b>Dan</b>
+    </p>
+
+    <p>
+    Mendapat sekurang-kurangnya Tahap 2 (Band 2) dalam Malaysian University English Test (MUET).
+    </p>
+
+</p>
+
+<h4>KELAYAKAN MINIMUM LEPASAN STAM/ SETARAF</h4>
+<p>
+    <span><b>Syarat Am Universiti</b></span> <br>
+
+    <p>
+   Memiliki Sijil Pelajaran Malaysia (SPM)/ setaraf dengan mendapat kepujian dalam mata pelajaran Bahasa
+    Melayu/ Bahasa Malaysia atau Kepujian Bahasa Melayu/ Bahasa Malaysia Kertas Julai;
+    </p>
+
+    <p class="text-center">
+    <b>Dan</b>
+    </p>
+
+    <p>
+    Mendapat sekurang-kurangnya Pangkat Jayyid dalam peperiksaan Sijil Tinggi Agama Malaysia (STAM) tahun
+    2018 dan 2019. <b>Dan</b> Mendapat sekurang-kurangnya Tahap 2 (Band 2) dalam Malaysian University English Test (MUET).
+    </p>
+
+</p>
+</div>

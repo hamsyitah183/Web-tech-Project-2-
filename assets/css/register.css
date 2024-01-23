@@ -1,0 +1,18 @@
+
+/*register*/
+
+label{
+    float:left;
+}
+
+input[type = "text"], input[type = "email"] {
+    font-weight: 600;
+}
+input[type = "text"]:focus, input[type = "email"]:focus, input[type = "password"]:focus{
+    background-color: hsla(218, 41%, 15%, 30%);
+
+    font-weight: 700;
+    
+}
+
+

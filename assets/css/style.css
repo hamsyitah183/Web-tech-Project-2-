@@ -1,0 +1,699 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --bg-light:#00BBED;
+    --bg-dark:#5799B6;
+    --bg-yellow:#FFEACE;
+    --font-color-light: #E6F4F1;
+    --font-color-dark: #354A54;
+    --font-hover:#203632;
+    --futura: 'Futura Md BT', sans-serif;
+}
+
+
+body{
+    background-color: var(--bg-light);
+   
+}
+
+
+
+
+/*hyperlink*/
+.a-hover a:hover{
+    text-decoration: none;
+    color:var(--font-hover);
+}
+
+/*black button*/
+.black-btn{
+    background-color:var(--bg-dark);
+    color:var(--font-color-light);
+}
+
+.black-btn:hover{
+    opacity: 90%;
+    color:white;
+    font-size: large;
+    font-weight: 500;
+}
+
+/*header*/
+header .nav-Color{
+    background-color: var(--bg-dark);
+    
+}
+
+header .nav-Content li a{
+    font-family: var(--futura);
+    color:var(--font-color-light);
+    transition:all 0.5s;
+    
+}
+header .nav-Content2{
+    background: var(--bg-dark);
+    opacity: 95%;
+    border:1px solid black;
+    transition:all 0.5s;
+}
+
+header .nav-Content li a:hover,
+header .nav-Content2 a:hover{
+    font-size: 18px;
+    color: var(--font-hover);
+    background-color: var(--font-color-light);
+    opacity: 80%;
+    border-radius:5px;
+}
+
+.section-main{
+    height: 80%;
+}
+/*linear-gradient(rgba(3, 3, 3, 0.5), rgba(0,0,0,0.5)),url('image/network.jpg')*/
+section .headers{
+    background-position: bottom;
+    background-size: cover;
+    height: 50%;
+    padding-bottom: 20px;
+}
+
+/*
+header .header-Content{
+    position: relative;
+    
+}
+*/
+
+header .row .col-lg-6 {
+    margin-top:20px;
+    padding-top:25vmin;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  
+}
+/*
+header #particles-js{
+    height: 100%;
+}
+*/
+header .row .col-lg-6 h1{
+    color: var(--font-color-light);
+    
+}
+
+
+
+header .header-Content{
+    background-image: linear-gradient(to right top, #00bbed, #00b3ee, #00aaee, #00a1ed, #1298eb);
+}
+
+/*about us section*/
+#abouts{
+    background-position: center;
+    background-size: cover;
+    height:30%;
+}
+#abouts .about-content,
+#abouts .mission-content
+{
+    background-color: #a8d7f040;
+    border-radius: 15px;
+    
+}
+
+#abouts .mission-content .row{
+    width: 80%;
+}
+
+#abouts .mission-content .row h2{
+    color:var(--font-color-light);
+}
+
+#abouts .mission-content .row .vision,
+#abouts .mission-content .row .mission,
+#abouts .mission-content .row .imgs
+{
+    
+    margin-bottom: 40px;
+}
+#abouts .mission-content .row .vision,
+#abouts .mission-content .row .mission,
+#abouts .mission-content .row .imgs,
+#abouts .mission-content .row .obj{
+    
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+#abouts .mission-content .row .vision p,
+#abouts .mission-content .row .mission p,
+
+#abouts .mission-content .row .obj div{
+    background-color: var(--bg-light);
+    padding: 12px 12px;
+    border-radius: 7px;
+    
+}
+#abouts .about-content h1{
+    color:var(--font-color-light);
+}
+
+#abouts .about-content>p{
+    color: var(--bg-yellow);
+}
+
+.section-1 .container .row .col-lg-9 .mascots{
+    width:200px;
+    margin-left: 230px;
+}
+
+#abouts .about-content .firstText,
+#abouts .about-content .secondText,
+
+#abouts .about-content .fourthText,
+#abouts .about-content .fifthText
+{
+    font-weight: 600;
+    background-color: var(--bg-light);
+    border-radius: 7px;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+}
+
+#abouts .about-content .secondText{
+    margin-bottom: 20px;
+}
+
+#abouts .about-content .fourthText{
+    padding-left: 10px;
+}
+
+
+
+/*postgraduate*/
+#postgraduate{
+    margin-top: 15vmin;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+}
+
+#postgraduate h3{
+    margin-bottom: 10vmin;
+    color:var(--font-color-dark);
+}
+
+#postgraduate h6{
+    color: var(--font-color-dark);
+    background-color: #c6b298f9;
+    font-weight: 700;
+}
+
+
+#postgraduate .postgraduate .first{
+    background-color: #00A9C6;
+    border-radius: 2px;
+    padding:0;
+    
+}
+
+#postgraduate .postgraduate .second{
+    background-color: #00A9C6;
+    border-radius: 2px;
+    padding:0;
+    
+}
+#postgraduate .postgraduate .third{
+    background-color: #00A9C6;
+    border-radius: 2px;
+    padding:0;
+    
+}
+#postgraduate .postgraduate .fourth{
+    background-color: #00A9C6;
+    border-radius: 2px;
+    padding:0;
+    
+}
+#postgraduate .postgraduate .fifth{
+    background-color: #00A9C6;
+    border-radius: 2px;
+    padding:0;
+    
+}
+#postgraduate .postgraduate a{
+    text-decoration: none;
+    color:var(--font-color-dark);
+}
+
+
+/*Postgraduate for hover*/
+#postgraduate .postgraduate .row div:hover
+{
+    background-color: var(--font-hover);
+    transition: all 0.5s;
+    
+}
+
+#postgraduate .postgraduate .row div a:hover
+{
+    color:var(--font-color-light);
+    font-size:19px;
+}
+
+
+
+section #software-engineering .row,
+section #network-engineering .row{
+    background-color:#196681;
+    padding-bottom:20px;
+}
+
+section #software-engineering .row .nav-item,
+section #network-engineering .row .nav-item{
+    background-color: #dee1e14c;
+    margin-left: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+section #software-engineering .row .nav-item a:hover,
+section #network-engineering .row .nav-item a:hover
+{
+    font-weight:700;
+    color:#203632;
+}
+
+section #software-engineering .row .nav-item a,
+section #network-engineering .row .nav-item a{
+    color:var(--font-color-dark);
+    
+}
+
+section #software-engineering .row .nav-item a:active,
+section #network-engineering .row .nav-item a:active{
+    border: 1px solid var(--bg-dark);
+}
+
+
+
+/*programme description*/
+#programmeDescription{
+    background-color: #98AFBA;
+    padding: 4vmin 3vmin;
+    border-radius: 6px;
+    border:1px solid var(--font-hover);
+}
+
+/*course*/
+/*Color*/
+section .card .card-body .first-box,
+section .card .card-body .second-box{
+    background-color: var(--bg-yellow);
+}
+
+section .card .card-body .first-box{
+    
+    border-right:0.5px solid var(--bg-dark);
+
+}
+
+/*Fee div*/
+section #software-engineering .row .tab-content .tab-pane .col-lg-12,
+section #network-engineering .row .tab-content .tab-pane .col-lg-12
+{
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    background-color: var(--font-color-light);
+}
+section #software-engineering .row .tab-content .tab-pane .col-lg-12 table,
+section #network-engineering .row .tab-content .tab-pane .col-lg-12 table
+
+{
+    background-color: #5799B6;
+}
+
+
+section #software-engineering .row .tab-content .tab-pane .col-lg-12 table th,
+section #software-engineering .row .tab-content .tab-pane .col-lg-12 table td,
+section #network-engineering .row .tab-content .tab-pane .col-lg-12 table th,
+section #network-engineering .row .tab-content .tab-pane .col-lg-12 table td
+{
+    border: 3px solid  #203632;
+}
+
+section #software-engineering .row .tab-content .tab-pane .col-lg-12 table td:hover,
+section #network-engineering .row .tab-content .tab-pane .col-lg-12 table td:hover
+{
+    background-color: var(--font-color-dark);
+    opacity:70%;
+    color:white;
+    font-weight:500;
+}
+
+/*apply tab*/
+section #software-engineering .applyTab,
+section #network-engineering .applyTabNet
+{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #5799B6;
+}
+
+/*prospect Job*/
+#prospectJob {
+    height:100%;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#prospectJob #listJob div {
+    background-color: var(--bg-dark);
+    padding: 0;
+    margin-left: 7px;
+    margin-top:10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#prospectJob #listJob div p{
+    font-weight: 500;
+    padding-top:2vmin;
+}
+
+#prospectJob h1{
+    color:var(--font-color-light);
+}
+
+#prospectJob #listJob div:hover{
+    background-color: var(--font-color-light);
+    transition: all 0.5s;
+    font-size:17.5px;
+    
+}
+
+/*------
+footer
+------*/
+#footerWeb{
+    padding-top: 20px;
+    height:100%;
+    background-color: var(--bg-light);
+    font-size: 1rem;
+}
+#footerBottom{
+    padding-bottom: 20px;
+}
+
+
+footer #footerCopy{
+    background-color: var(--bg-dark);
+    
+}
+
+footer #footerLink{
+    
+    margin-right: 3px;
+    border-radius: 5px;
+    
+}
+footer #footerLink .footerLink li{
+    border: none;
+    margin-top:3px;
+}
+footer #footerLink .footerLink a{
+    text-decoration: none;
+}
+
+footer #footerLink .footerLink a li{
+    color:black;
+    font-weight: 700;
+    padding-left: 3px;
+}
+
+footer #footerLink .footerLink a li:hover{
+    color:white;
+    opacity: 60%;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+#footerDetails {
+    
+    border-radius: 5px;
+    
+    margin-right: 5px;
+    
+}
+
+#footerDetails p{
+    padding: 2px 3px;
+    margin-bottom: 0px;
+}
+
+#footerContact{
+    
+    border-radius: 5px;
+    
+    padding-right: 5px;
+
+}
+
+
+
+
+
+
+/*------------------------------------------------mobile-----------------------------------------------------*/
+/*media */
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+    .dropdown:after{
+        content: ''; 
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: opacity .15s ease-in-out;
+        opacity: 0;
+        visibility:hidden;
+        background-color: rgba(0,0,0,.2);
+        pointer-events: none;
+    }
+    .dropdown.show .nav-link{
+      position:relative;
+      z-index:12;
+    }
+    .dropdown.show:after{
+      z-index:10; opacity:1; 
+      visibility:visible;
+      position: fixed;
+    }
+}	
+/* ============ desktop view .end// ============ */
+
+/*medium*/
+@media only screen and (max-width: 992px) and (min-width:767px) {
+    /*mascot*/
+    .section-1 .container .row .col-lg-9 .mascots{
+        width:300px;
+        margin-left: 230px;
+    }
+    /*section header */
+    .section-1 .container .row .col-lg-3 img{
+        display:none;
+    }
+   
+    #abouts .mission-content{
+        margin-top: 20px;
+        width:80%;
+        margin-left:10%;
+    }
+
+    /*course detail*/
+    section .card .card-body .first-box,
+    section .card .card-body .second-box{
+        border:1px solid var(--bg-dark);
+    }
+    section .card .card-body .first-box{
+        margin-bottom: 5px;
+    }
+
+    #prospectJob {
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #prospectJob #listJob div{
+        background-color: var(--bg-dark);
+        margin-top:0px;
+        margin-bottom: 5px;
+    }
+
+    #prospectJob .prospectJob img{
+        display: none;
+    }
+
+    #footerWeb .ums-logo{
+        display:none;
+    }
+
+    footer #footerLink{
+        margin-right: 10px;
+        margin-left: 70px;
+    }
+
+    footer #footerContact{
+        margin-left: 125px;
+        padding-bottom:10px;
+        margin-top: 20px;
+    }
+
+}
+
+
+/*small*/
+@media only screen and (max-width: 768px) {
+    /*section header*/
+    header .row .col-lg-6 {
+        margin-bottom: 0%;
+    }
+    header .row .col-lg-6 h1{
+        line-height: 4rem;
+        
+    }
+
+    .section-1 .container .row .col-lg-9 .mascots{
+        display: none;
+    }
+
+    #abouts .mission-content{
+        margin-top: 20px;
+        width:80%;
+        margin-left:10%;
+    }
+    
+
+    /*postgraduate*/
+    #postgraduate .postgraduate .row div{
+        margin-bottom: 4px;
+        
+    }
+    
+
+    section #software-engineering,
+    section #network-engineering
+    {
+        width:450px;
+        padding:2vmin 1vmin;
+        
+    }
+
+   
+    .section-1 .container .row .col-lg-9 .mascots{
+        width:600px;
+        margin-left: 100px;
+    }
+    .section-1 .container .row .col-lg-3 img{
+        display:none;
+    }
+
+    
+
+    section .card .card-body .first-box,
+    section .card .card-body .second-box{
+        border:1px solid var(--bg-dark);
+    }
+    section .card .card-body .first-box{
+        margin-bottom: 5px;
+    }
+
+    section #software-engineering .applyTab{
+        border:1px solid var(--bg-dark);
+    }
+
+    #prospectJob {
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #prospectJob .prospectJob img{
+        display: none;
+    }
+
+    #prospectJob #listJob div{
+        background-color: var(--bg-dark);
+        padding: 0;
+        margin:0;
+        margin-bottom: 5px;
+        width:80%;
+        margin-left: 20px;
+        
+    }
+
+    #prospectJob #listJob div p{
+        padding-top: 5vmin;
+    }
+
+    
+    /*footer*/
+    
+    #footerWeb .ums-logo{
+        display:none;
+    }
+
+    #footerWeb{
+        font-size: small;
+    }
+    footer #footerLink{
+        margin-bottom: 5px;
+        margin-left:3px;
+    }
+
+    footer #footerDetails{
+        padding-bottom: 10px;
+        margin-left:3px;
+        margin-right:3px;
+        margin-bottom: 5px;
+    }
+
+    footer #footerContact{
+        padding-bottom: 10px;
+        margin-left:3px;
+        margin-right:3px;
+    }
+    
+}
+
+
+
+  
+
+
+
+
+
+
+
+
